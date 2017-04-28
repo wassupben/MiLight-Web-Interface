@@ -1,0 +1,17 @@
+{
+  "name": "MiLight-Web_Interface",
+  "version": "1.0.0",
+  "description": "A web interface for the MiLight wifi smart bulbs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Holmes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "node-milight-promise": "^0.1.2",
+    "socket.io": "^1.7.3"
+  }
+}
