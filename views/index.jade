@@ -7,6 +7,11 @@ html
     script(src='scripts/index.js')
   body
     h1 lighting
+    div(id="zone")
+      - for (var i=1; i<=4; i++) {
+        input(type="radio" name="zone" id="sel#{i}" value="zone#{i}")
+        label(for="sel#{i}") Zone #{i}
+      - }
     button(id="onButton") on
     button(id="offButton") off
     input(type="range" id="brightness" value="50" min="0" max="100")
