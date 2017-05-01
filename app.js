@@ -27,6 +27,6 @@ io.on('connection', function(socket){
   socket.on('brightness', function(brightness){
     console.log(brightness.brightness);
     console.log(brightness.zone);
-    light.changeBrightness(brightness.brightness);
+    light.changeBrightness(brightness.brightness, brightness.zone);
   });
 });
