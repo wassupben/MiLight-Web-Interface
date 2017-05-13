@@ -5,7 +5,7 @@ var commands = require('node-milight-promise').commands2;
 
 // set up the milight object
 var light = new Milight({
-        ip: "192.168.0.102",
+        ip: "255.255.255.255",
         delayBetweenCommands: 80,
         commandRepeat: 2
     });
