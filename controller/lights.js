@@ -11,8 +11,7 @@ var light = new Milight({
     });
 
 
-
-
+//the functions available to the web interface
 module.exports = {
 
   changeState: function (state, brightness, zone) {
